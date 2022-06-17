@@ -1,0 +1,200 @@
+.sec-6 {
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    padding: 0px 15px;
+    &__title {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    &__f {
+
+        h2 {
+            padding: 15px 0px 0px 0px;
+            font-family: 'HSE-Sans-bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            color: #282938;
+            @media (max-width: 1240px) {
+                font-size: 36px;
+                line-height: 36px;
+            }
+            @media (max-width: 990px) {
+                font-size: 28px;
+                line-height: 28px;
+                padding: 10px 0px 0px 0px;
+            }
+            @media (max-width: 540px) {
+                font-size: 24px;
+                line-height: 24px;
+            }
+        }
+
+        svg {
+
+        }
+    }
+
+    &__button {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        button {
+            box-sizing: border-box;
+            background: #1658DA;
+            padding: 10px 20px;
+            font-family: 'HSE-Sans-semi-bold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 15px;
+            color: #FFFFFF;
+
+        }
+        @media (max-width: 540px) {
+            margin-top: 30px;
+        }
+    }
+}
+
+.bsc-6 {
+margin-top: 70px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+row-gap: 50px;
+column-gap: 10%;
+@media (max-width: 1240px) {
+    column-gap: 3%;
+    row-gap: 30px;
+}
+@media (max-width: 990px) {
+    column-gap: 1.5%;
+    row-gap: 20px;
+}
+@media (max-width: 769px) {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+@media (max-width: 540px) {
+    margin-top: 40px;
+}
+}
+
+.isc-6 {
+    max-width: 524px;
+    width: 100%;
+    height: 260px;
+    box-sizing: border-box;
+    border: 0.899438px solid rgba(35, 37, 54, 0.17);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__bottom {
+
+        span {
+            display: flex;
+            justify-content: space-between;
+            content: '';
+            width: 100%;
+            height: 7px;
+            background: #C01646;
+            &::before {
+                display: block;
+                content: '';
+                width: 45%;
+                height: 7px;
+                background: #F9C5AF;
+            }
+            &::after {
+                left: auto;
+                right: 0;
+                display: block;
+                content: '';
+                width: 25%;
+                height: 7px;
+                background: #244A9A;
+            }
+        }
+    }
+    @media (max-width: 990px) {
+        height: 220px;
+    }
+    @media (max-width: 769px) {
+        height: 240px;
+        min-width: 390px;
+    }
+    @media (max-width: 540px) {
+        height: 260px;
+        min-width: 350px;
+    }
+}
+
+.tisc-6 {
+    display: flex;
+    align-items: flex-start;
+    &__left {
+        padding: 20px 15px 0px 15px;
+
+        img {
+            width: 44px;
+            height: 44px;
+        }
+        @media (max-width: 990px) {
+            padding: 10px 10px 0px 15px;
+        }
+    }
+
+    &__main {
+        padding: 20px 0px 0px 0px;
+        h4 {
+            font-family: 'HSE-Sans-semi-bold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 18px;
+            color: #000000;
+        }
+
+        p {
+            padding-top: 15px;
+            font-family: 'HSE-Sans-regular';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #232536;
+            opacity: 0.6;
+        }
+        @media (max-width: 990px) {
+            padding: 10px 0px 0px 0px;
+            h4 {
+                font-size: 16px;
+                line-height: 16px;
+            }
+    
+            p {
+                padding: 10px 0px 0px 0px;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    &__right {
+        padding: 10px 12px;
+        span {
+            font-family: 'HSE-Sans-semi-bold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 18px;
+            color: #232536;
+            opacity: 0.2;
+        }
+    }
+}

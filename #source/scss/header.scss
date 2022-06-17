@@ -1,0 +1,15 @@
+.header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333333;
+    h1 {
+        font-family: "HSE-Sans-regular";
+        font-size: 36px;
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,217 @@
+.sec-12 {
+    margin: 65px auto;
+    max-width: 1310px;
+    padding: 0 15px;
+    h2 {
+        font-family: 'HSE-Sans-bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        color: #282938;
+        @media (max-width: 1240px) {
+            font-size: 36px;
+            line-height: 36px;
+        }
+        @media (max-width: 990px) {
+            font-size: 28px;
+            line-height: 28px;
+        }
+        @media (max-width: 540px) {
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+}
+
+.bsc-12 {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-content: center;
+    text-align: center;
+    margin-top: 65px;
+    @media (max-width: 1240px) {
+        margin-top: 45px;
+    }
+}
+
+.i-bsc-12 {
+    background: #F9F9FF;
+    border: 0.9px solid rgba(35, 37, 54, 0.2);
+    box-sizing: border-box;
+    padding: 25px;
+    @media (max-width: 1240px) {
+        padding: 15px;
+    }
+}
+
+.di-bsc-12 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    &__pic {
+
+        img {
+            border-radius: 100%;
+        }
+    }
+
+    &__con {
+        margin-left: 15px;
+        height: 155px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 410px;
+        h3 {
+            font-family: 'HSE-Sans-bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 38px;
+            color: #000000;
+        }
+
+        p {
+            font-family: 'HSE-Sans-regular';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+            max-width: 350px;
+            margin: 0 auto;
+            
+        }
+
+        a {
+
+            button {
+                font-family: 'HSE-Sans-semi-bold';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 14px;
+                color: #FFFFFF;
+                box-sizing: border-box;
+                padding: 10px 16px;
+                background: #1658DA;
+            }
+        }
+    }
+    @media (max-width: 1240px) {
+        margin-top: 30px;
+        &__pic {
+
+            img {
+                border-radius: 100%;
+                // width: 100%;
+                height: 140px;
+                width: 140px;
+            }
+        }
+
+        &__con {
+            margin-left: 15px;
+            height: 140px;
+            max-width: 370px;
+            h3 {
+                font-size: 24px;
+                line-height: 30px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 22px;
+                max-width: 300px;
+                
+            }
+
+            a {
+
+                button {
+                    font-size: 14px;
+                    line-height: 14px;
+                    padding: 8px 16px;
+                }
+            }
+        }
+    }
+    @media (max-width: 990px) {
+        margin-top: 20px;
+        &__pic {
+
+            img {
+                border-radius: 100%;
+                // width: 100%;
+                height: 120px;
+                width: 120px;
+            }
+        }
+
+        &__con {
+            margin-left: 10px;
+            height: 120px;
+            max-width: 340px;
+            h3 {
+                font-size: 22px;
+                line-height: 26px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 20px;
+                max-width: 250px;
+                
+            }
+
+            a {
+
+                button {
+                    font-size: 14px;
+                    line-height: 14px;
+                    padding: 8px 16px;
+                }
+            }
+        }
+    }
+    @media (max-width: 540px) {
+        margin-top: 15px;
+        &__pic {
+
+            img {
+                border-radius: 100%;
+                // width: 100%;
+                height: 90px;
+                width: 90px;
+            }
+        }
+
+        &__con {
+            margin-left: 5px;
+            height: 110px;
+            max-width: 100%;
+            h3 {
+                font-size: 16px;
+                line-height: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 18px;
+                max-width: 200px;
+                
+            }
+
+            a {
+
+                button {
+                    font-size: 14px;
+                    line-height: 14px;
+                    padding: 8px 16px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,183 @@
+.sec-5 {
+    max-width: 1200px;
+    margin: 130px auto;
+    padding: 0 15px;
+    h2 {
+        font-family: 'HSE-Sans-bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        color: #282938;
+        @media (max-width: 1240px) {
+            font-size: 36px;
+            line-height: 36px;
+        }
+        @media (max-width: 990px) {
+            font-size: 28px;
+            line-height: 28px;
+        }
+        @media (max-width: 540px) {
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+}
+
+.bsc-5 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    &__item {
+        text-align: center;
+        min-width: 200px;
+        max-width: 270px;
+
+        h3 {
+            font-family: 'HSE-Sans-bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 60px;
+            color: #244A9A;
+            
+        }
+
+        span {
+            display: flex;
+            justify-content: space-between;
+            content: '';
+            width: 100%;
+            height: 2px;
+            background: #C01646;
+            margin: 40px 0px;
+            &::before {
+                display: block;
+                content: '';
+                width: 15%;
+                height: 2px;
+                background: #F9C5AF;
+            }
+            &::after {
+                left: auto;
+                right: 0;
+                display: block;
+                content: '';
+                width: 20%;
+                height: 2px;
+                background: #244A9A;
+            }
+        }
+
+        p {
+            font-family: 'HSE-Sans-regular';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            color: #000000;
+        }
+    }
+    @media (max-width: 1240px) {
+        margin-top: 80px;
+        &__item {
+            // text-align: center;
+            // min-width: 200px;
+            // max-width: 270px;
+    
+            h3 {
+                font-size: 48px;
+                line-height: 48px;
+                
+            }
+    
+            span {
+                margin: 30px 0px;
+            }
+    
+            p {
+                font-size: 22px;
+                line-height: 30px;
+            }
+        }
+    }
+    @media (max-width: 990px) {
+        margin-top: 60px;
+        &__item {
+            // text-align: center;
+            min-width: 150px;
+            max-width: 200px;
+    
+            h3 {
+                font-size: 36px;
+                line-height: 36px;
+                
+            }
+    
+            span {
+                margin: 20px 0px;
+            }
+    
+            p {
+                font-size: 20px;
+                line-height: 28px;
+            }
+        }
+    }
+    @media (max-width: 769px) {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+        &__item {
+            // text-align: center;
+            margin: 0 auto;
+            min-width: 200px;
+            max-width: 220px;
+    
+            h3 {
+                font-size: 36px;
+                line-height: 36px;
+                
+            }
+    
+            span {
+                margin: 20px 0px;
+            }
+    
+            p {
+                font-size: 20px;
+                line-height: 28px;
+            }
+        }
+    }
+    @media (max-width: 540px) {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+        column-gap: 20px;
+        &__item {
+            margin: 0 auto;
+            min-width: 150px;
+            max-width: 220px;
+    
+            h3 {
+                font-size: 28px;
+                line-height: 28px;
+                
+            }
+    
+            span {
+                margin: 15px 0px;
+            }
+    
+            p {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}

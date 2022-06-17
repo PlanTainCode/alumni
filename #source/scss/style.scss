@@ -1,0 +1,121 @@
+// Шрифты
+// HSE SLAB
+
+// font-family: "HSE-Slab-regular";
+@font-face {
+    font-family: "HSE-Slab-regular";
+    src: url('/fonts/HSE_Slab/HSESlab-Regular.otf') format("opentype");
+    font-style: normal;
+}
+// font-family: "HSE-Slab-italic";
+@font-face {
+    font-family: "HSE-Slab-italic";
+    src: url('/fonts/HSE_Slab/HSESlab-Italic.otf') format("opentype");
+    font-style: italic;
+}
+// font-family: "HSE-Slab-bold";
+@font-face {
+    font-family: "HSE-Slab-extra-bold";
+    src: url('/fonts/HSE_Slab/HSESlab-Black.otf') format("opentype");
+    font-style: normal;
+}
+
+// HSE SANS
+
+// 
+    @font-face {
+        font-family: "HSE-Sans-regular";
+        src: url('/fonts/HSE_Sans/HSESans-Regular.otf');
+        font-style: normal;
+    }
+// 
+    @font-face {
+        font-family: "HSE-Sans-bold";
+        src: url('/fonts/HSE_Sans/HSESans-Bold.otf');
+        font-style: normal;
+        font-weight: 700;
+    }
+// 
+    @font-face {
+        font-family: "HSE-Sans-extra-bold";
+        src: url('/fonts/HSE_Sans/HSESans-Black.otf');
+        font-style: normal;
+        font-weight: 900;
+    }
+// 
+    @font-face {
+        font-family: "HSE-Sans-semi-bold";
+        src: url('/fonts/HSE_Sans/HSESans-SemiBold.otf');
+        font-style: normal;
+        font-weight: 600;
+    }
+// 
+    @font-face {
+        font-family: "HSE-Sans-italic";
+        src: url('/fonts/HSE_Sans/HSESans-Italic.otf');
+        font-style: italic;
+    }
+    @font-face {
+        font-family: "HSE-Sans-thin";
+        src: url('/fonts/HSE_Sans/HSESans-Thin.otf');
+        font-style: normal;
+        font-weight: 200;
+    }
+// 
+
+// 
+
+// основной контейнер
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+// миксины
+@mixin anim($e, $d) {
+  -webkit-transition: all $e ease $d;
+  -o-transition: all $e ease $d;
+  transition: all $e ease $d;
+}
+@mixin scale($q) {
+  -ms-transform: scale($q);
+  -webkit-transform: scale($q);
+  transform: scale($q);
+}
+@mixin rotate($w) {
+  -ms-transform: rotate($w);
+  -webkit-transform: rotate($w);
+  transform: rotate($w);
+}
+
+
+.main-page {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+// cтили для всех страниц
+@import "null.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "sec-1.scss";
+@import "sec-2.scss";
+@import "sec-3.scss";
+@import "sec-4.scss";
+@import "sec-5.scss";
+@import "sec-6.scss";
+@import "sec-7.scss";
+@import "sec-8.scss";
+@import "sec-9.scss";
+@import "sec-10.scss";
+@import "sec-12.scss";
